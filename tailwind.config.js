@@ -5,14 +5,14 @@ module.exports = {
   darkMode: 'class',
   theme: {
     boxShadow: {
-      "custom-light": " 0 0 10px #0011ff",
-      "custom-dark": "5px 5px 10px #a651f5 , -5px -5px 10px #a651f5",
+      "custom-light": "5px 5px 5px #00c3ff , -10px -10px 10px #00c3ff",
+      "custom-dark": "5px 5px 5px #008cff , -10px -10px 10px #008cff",
     },
 
     extend: {
       colors: {
-        bule: {
-          DEFAULT: "#0034f2",
+        blue: {
+          DEFAULT: "#c800ff",
         },
         dark: {
           DEFAULT: "#010101",

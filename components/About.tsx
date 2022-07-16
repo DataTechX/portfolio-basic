@@ -6,31 +6,30 @@ import Image from 'next/image';
 const About = () => {
     const { theme, setTheme } = useTheme();
 
-
     const changeTheme = () => {
         setTheme(theme === 'light' ? 'dark' : 'light');
     };
-
 
 
     return (
         <>
             <Image src="https://cdn.discordapp.com/attachments/987779580418998333/996063116695720056/icon-anime-7.jpg"
                 alt="profile"
-                className="mx-auto border rounded-full"
+                className="mx-auto rounded-full"
                 width="256px"
                 height="256px"
                 layout="intrinsic"
-                quality="100" />
+                quality="100" 
+                />
             {/* ชื่อ */}
             <h1 className='my-4 font-mono text-3xl font-bold tracking-wider'>
-                <span className='text-purple-400 '>JKTheRipperTh</span>
+                <span className='text-emerald-500'>JKTHERIPPER TH</span>
             </h1>
             {/* คำอธิบาย */}
             <p className="px-2 py-1 my-3 font-mono bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">Software Engineer And Mechanic Engineer</p>
 
             {/* โซเซ๊ยลต่างๆ */}
-            <div className='flex justify-around w-9/12 mx-auto my-5 text-cyan-500 md:w-full'>
+            <div className='flex justify-around w-5 mx-auto my-5 text-purple-600 md:w-full'>
                 <a href="https://github.com/JKTheRipperTH">
                     <AiFillGithub className='w-8 h-8 cursor-pointer' />
                 </a>
@@ -65,16 +64,16 @@ const About = () => {
                 </span>
                 <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
                     <li>
-                        <a href="#" className="mr-4 hover:underline md:mr-6 ">เกี่ยวกับ</a>
+                        <a href="javascript:void(0)" className="mr-4 hover:underline md:mr-6 ">เกี่ยวกับ</a>
                     </li>
                     <li>
-                        <a href="#" className="mr-4 hover:underline md:mr-6">นโยบายความเป็นส่วนตัว</a>
+                        <a href="javascript:void(0)" className="mr-4 hover:underline md:mr-6">นโยบายความเป็นส่วนตัว</a>
                     </li>
                     <li>
-                        <a href="#" className="mr-4 hover:underline md:mr-6">ใบอนุญาต</a>
+                        <a href="javascript:void(0)" className="mr-4 hover:underline md:mr-6">ใบอนุญาต</a>
                     </li>
                     <li>
-                        <a href="#" className="hover:underline">ติดต่อ</a>
+                        <a href="javascript:void(0)" className="hover:underline">ติดต่อ</a>
                     </li>
                 </ul>
             </footer>
