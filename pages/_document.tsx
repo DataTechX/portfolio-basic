@@ -5,7 +5,7 @@ class DocumentXD extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    <title>NCN</title>
+                    <title>CGH</title>
                     <link rel="shortcut icon" href="nana.ico" type="image/x-icon" />
                     <meta name="theme-color" content="#ced4da" />
                     <meta name="description" content="NCN CREATE PORTOLIO" />
