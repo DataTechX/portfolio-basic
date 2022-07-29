@@ -48,7 +48,7 @@ const About = () => {
             {/* ที่อยู่ */}
 
             <div className=' h-32 bg-gray-200 dark:bg-dark-200 dark:bg-black-200' style={{ marginLeft: "-1rem", marginRight: "-1rem" }}>
-                <p className="text-dark font-semibold mb-1 dark:text-white">Contact &amp; Developer</p>
+                <p className="text-dark font-semibold mb-1 dark:text-white">Contact &apos; Developer</p>
                 <a className=" bg-blue-500 text-white font-semibold px-2 mx-[2px] rounded text-center items-center justify-center"
                     href="https://discord.com/users/827530462675075102">Ay'Kakima#7824</a>
                 {/* <p className="text-dark font-semibold mb-1 dark:text-white">Contact &amp; Developer</p> */}
@@ -78,7 +78,7 @@ const About = () => {
             <button onClick={changeTheme} className="w-48 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-blue-700 to-purple-600 focus:outline-none hover:scale-110">เปลี่ยนสี</button>
 
             <footer>
-                <p className="text-sky-500 mb-1 text-left font-mono text-sm">LYNN &amp; DMC TEAM</p>
+                <p className="text-sky-500 mb-1 text-left font-mono text-sm">LYNN &apos; DMC TEAM</p>
             </footer>
         </>
     )
