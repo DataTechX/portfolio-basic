@@ -5,8 +5,8 @@ module.exports = {
   darkMode: 'class',
   theme: {
     boxShadow: {
-      "custom-light": "5px 5px 5px #00ffd5 , -10px -10px 10px #00ffd5",
-      "custom-dark": "5px 5px 5px #008cff , -10px -10px 10px #008cff",
+      "custom-light": "5px 5px 5px #008cff , -5px -5px 5px #008cff",
+      "custom-dark": "5px 5px 5px #008cff , -5px -5px 5px #008cff",
     },
 
     extend: {
